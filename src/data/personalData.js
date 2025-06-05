@@ -37,8 +37,7 @@ export const CONTACT_INFO = {
   location: "St. Louis, MO",
 };
 
-export const PROFILE_IMAGE_URL =
-  "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=500&fit=crop&crop=face";
+export const PROFILE_IMAGE_URL = "/ali-profile.jpeg";
 
 export const LINKEDIN_URL = "https://www.linkedin.com/in/parvez-ali-ahmed-shaik-9160651bb/";
 export const GITHUB_URL   = "https://github.com/parvez-ali-ahmed";

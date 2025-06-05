@@ -56,11 +56,11 @@ const About = () => {
                 }`}
               >
                 <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-transparent bg-clip-text bg-gradient-to-r from-gray-900 via-blue-800 to-purple-800 dark:from-white dark:via-blue-400 dark:to-purple-400 mb-4 leading-tight">
-                  Parvez Ali Ahmed
+                  Parvez Ali Ahmed Shaik
                 </h1>
 
                 <h2 className="text-lg sm:text-xl lg:text-2xl font-bold text-blue-600 dark:text-blue-400 mb-6 relative">
-                  Full Stack Developer
+                  Software Developer
                   <div className="absolute -bottom-2 left-0 w-20 h-1 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full"></div>
                 </h2>
 
