@@ -2,7 +2,7 @@ export const educationInfo = {
     degree: "Master of Science in Computer Science",
     institution: "University of Missouri Kansas City",
     graduationDate: "May 2025",
-    gpa: "3.8/4.0",
+    gpa: "3.6/4.0",
     logoText: "UMKC",
     // List of “Relevant Coursework”
     coursework: [

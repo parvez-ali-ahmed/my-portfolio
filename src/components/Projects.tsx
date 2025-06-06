@@ -45,31 +45,41 @@ const ProjectCard = ({ project }: { project: Project }) => {
         </div>
 
         <div className="flex space-x-3">
-          <Button
-            variant="outline"
-            size="sm"
-            as="a"
-            href={liveUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center"
-          >
-            <ExternalLink className="w-4 h-4 mr-1" />
-            Live Demo
-          </Button>
+          {liveUrl && (
+            <Button
+              variant="outline"
+              size="sm"
+              asChild
+              className="flex items-center"
+            >
+              <a
+                href={liveUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <ExternalLink className="w-4 h-4 mr-1" />
+                Live Demo
+              </a>
+            </Button>
+          )}
 
-          <Button
-            variant="outline"
-            size="sm"
-            as="a"
-            href={githubUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center"
-          >
-            <Github className="w-4 h-4 mr-1" />
-            Code
-          </Button>
+          {githubUrl && (
+            <Button
+              variant="outline"
+              size="sm"
+              asChild
+              className="flex items-center"
+            >
+              <a
+                href={githubUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Github className="w-4 h-4 mr-1" />
+                Code
+              </a>
+            </Button>
+          )}
         </div>
       </div>
     </div>
