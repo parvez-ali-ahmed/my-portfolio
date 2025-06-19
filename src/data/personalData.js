@@ -43,7 +43,7 @@ export const LINKEDIN_URL = "https://www.linkedin.com/in/parvez-ali-ahmed-shaik-
 export const GITHUB_URL   = "https://github.com/parvez-ali-ahmed";
 export const MAIL_URL     = "mailto:parvezaliahmedshaik@gmail.com";
 export const RESUME_URL   =
-  "https://drive.google.com/file/d/15DbnC-Wx3fa1uz68hWQ1TBOUg9rh0wrL/view?usp=sharing";
+  "https://drive.google.com/file/d/1UbsbZG3Ln3l5Xmfa43v0-MsLAxG_V7vb/view?usp=sharing";
 
 export const HIGHLIGHTS = [
   "4+ years in full-stack development with Java and modern frameworks",

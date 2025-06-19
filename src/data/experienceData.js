@@ -1,8 +1,8 @@
 export const experiences = [
     {
-      company: "Edward Jones",
-      position: "Full Stack Developer",
-      location: "St. Louis, MO",
+      company: "GoldmanSachs",
+      position: "Software Engineer",
+      location: "Newyork-Hybrid",
       period: "Oct 2024 – Present",
       achievements: [
         "Built scalable Spring Boot + PostgreSQL microservices, boosting billing accuracy by 30% and reducing support tickets by 15%",
